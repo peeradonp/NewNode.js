@@ -1,0 +1,38 @@
+/*
+* @Author: p
+* @Date:   2016-05-23 23:14:06
+* @Last Modified by:   p
+* @Last Modified time: 2016-05-24 02:01:08
+*/
+th {
+    background-color: #fff;
+}
+.menu-list {
+  color: #ffffff;
+  background-color:  #09f;
+}
+td {
+    color: rgb(0, 204, 255);
+    font-size: 18px;
+}
+.stop {
+    color: red;
+}
+.born {
+    color: green;
+}
+.vbvb {
+    width: 100%;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 100;
+}
+@keyframes example {
+    0%   {background-color:red}
+    25%  {background-color:yellow}
+    50%  {background-color:blue}
+    75%  {background-color:green}
+    100% {background-color:red}
+}
